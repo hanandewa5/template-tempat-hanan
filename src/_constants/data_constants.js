@@ -1,7 +1,7 @@
 const Image1 = require("../assets/images/ayambakar.jpg");
-const Image2 = require("../assets/images/ayambakar.jpg");
-const Image3 = require("../assets/images/ayambakar.jpg");
-const Image4 = require("../assets/images/ayambakar.jpg");
+const Image2 = require("../assets/images/office.jpg");
+const Image3 = require("../assets/images/lapanganfutsal.jpg");
+const Image4 = require("../assets/images/salon.jpg");
 
 
 export const dataDeal = [
@@ -38,7 +38,7 @@ export const dataDeal = [
     },
     {
       id: 2,
-      imgSrc: Image1,
+      imgSrc: Image2,
       rate : "4.5",
       type: 'Work',
       liked: false,
@@ -74,7 +74,7 @@ export const dataDeal = [
 export const dataPopular = [
     {
       id: 1,
-      imgSrc: Image1,
+      imgSrc: Image3,
       type: 'Sports',
       rate : "5.0",
       liked: true,
@@ -105,7 +105,7 @@ export const dataPopular = [
     },
     {
       id: 2,
-      imgSrc: Image1,
+      imgSrc: Image4,
       rate : "4.5",
       type: 'Beauty',
       liked: false,
